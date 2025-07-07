@@ -1,7 +1,8 @@
-# Ignore files that don't have a dot (i.e., no extension)
-[^.]*
-
-# Exclude known important ones (optional)
-!Makefile
-!Dockerfile
+# === OS and Editor files ===
 .DS_Store
+.vscode/
+
+# === Compiled output files ===
+*.out
+
+
